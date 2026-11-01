@@ -11,6 +11,7 @@ I turn messy business data into reports, models and automations that people use 
 | [**Meraki Sales Reporting & WhatsApp Automation**](https://github.com/fochakos/meraki-automation) | Production n8n + Python pipeline: daily Excel reporting, WhatsApp/email delivery, a data-quality resolver web app, an AI tracker chatbot |
 | [**Olist E-Commerce SQL Analysis**](https://github.com/fochakos/olist-ecommerce-sql-analysis) | 15 business questions in SQL on 96,000 orders: cohort retention, delivery vs. reviews, seller scorecard, RFM segments |
 | [**Washington EV Adoption Dashboard**](https://github.com/fochakos/wa-ev-adoption-tableau) · [live](https://public.tableau.com/app/profile/fred.ochako/viz/WashingtonEVAdoption2026/WashingtonEVAdoption) | Tableau dashboard of 299,353 EVs: per-capita county map (LOD expression), top makes, growth by model year |
+| [**Customer Churn Prediction**](https://github.com/fochakos/telco-churn-prediction) · [live app](https://telco-churn-fochakos.streamlit.app) | Churn model (ROC-AUC 0.84) with a profit-based contact threshold, deployed as a Streamlit app |
 | [**10-Year Coronary Heart Disease Risk**](https://github.com/fochakos/chd-risk-prediction) | End-to-end ML on the Framingham study: leakage-safe pipeline, PR-AUC model selection, threshold tuning, interpretation |
 | [**Superstore Sales Forecast**](https://github.com/fochakos/superstore_forecast) | Monthly sales time series and a 12-month ARIMA forecast, exported to Excel |
 | [**Ames Housing Prices**](https://github.com/fochakos/ameshousing) | Regression on 2,930 home sales |
@@ -19,6 +20,7 @@ I turn messy business data into reports, models and automations that people use 
 ## Tools I use
 
 - **Analysis & ML:** Python (pandas, NumPy, scikit-learn, statsmodels, imbalanced-learn), Jupyter
+- **Deployment:** Streamlit apps on Streamlit Community Cloud
 - **Data & reporting:** SQL (DuckDB, PostgreSQL), Excel, Tableau ([public profile](https://public.tableau.com/app/profile/fred.ochako)), Power BI
 - **Visualization:** Matplotlib, Seaborn, Plotly
 - **Automation:** n8n, REST APIs and webhooks, WhatsApp (WAHA), SMTP, ClickUp
