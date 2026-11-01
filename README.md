@@ -9,6 +9,7 @@ I turn messy business data into reports, models and automations that people use 
 | Project | What it shows |
 |---|---|
 | [**Meraki Sales Reporting & WhatsApp Automation**](https://github.com/fochakos/meraki-automation) | Production n8n + Python pipeline: daily Excel reporting, WhatsApp/email delivery, a data-quality resolver web app, an AI tracker chatbot |
+| [**Olist E-Commerce SQL Analysis**](https://github.com/fochakos/olist-ecommerce-sql-analysis) | 15 business questions in SQL on 96,000 orders: cohort retention, delivery vs. reviews, seller scorecard, RFM segments |
 | [**10-Year Coronary Heart Disease Risk**](https://github.com/fochakos/chd-risk-prediction) | End-to-end ML on the Framingham study: leakage-safe pipeline, PR-AUC model selection, threshold tuning, interpretation |
 | [**Superstore Sales Forecast**](https://github.com/fochakos/superstore_forecast) | Monthly sales time series and a 12-month ARIMA forecast, exported to Excel |
 | [**Ames Housing Prices**](https://github.com/fochakos/ameshousing) | Regression on 2,930 home sales |
