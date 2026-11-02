@@ -9,6 +9,7 @@ I turn messy business data into reports, models and automations that people use 
 | Project | What it shows |
 |---|---|
 | [**Meraki Sales Reporting & WhatsApp Automation**](https://github.com/fochakos/meraki-automation) | Production n8n + Python pipeline: daily Excel reporting, WhatsApp/email delivery, a data-quality resolver web app, an AI tracker chatbot |
+| [**Seattle 911 Data Pipeline**](https://github.com/fochakos/seattle-911-pipeline) · [live](https://fochakos.github.io/seattle-911-pipeline/) | Daily automated ETL on GitHub Actions: open-data API → DuckDB → SQL → 10 data-quality checks → self-publishing dashboard |
 | [**Olist E-Commerce SQL Analysis**](https://github.com/fochakos/olist-ecommerce-sql-analysis) | 15 business questions in SQL on 96,000 orders: cohort retention, delivery vs. reviews, seller scorecard, RFM segments |
 | [**Washington EV Adoption Dashboard**](https://github.com/fochakos/wa-ev-adoption-tableau) · [live](https://public.tableau.com/app/profile/fred.ochako/viz/WashingtonEVAdoption2026/WashingtonEVAdoption) | Tableau dashboard of 299,353 EVs: per-capita county map (LOD expression), top makes, growth by model year |
 | [**Customer Churn Prediction**](https://github.com/fochakos/telco-churn-prediction) · [live app](https://telco-churn-fochakos.streamlit.app) | Churn model (ROC-AUC 0.84) with a profit-based contact threshold, deployed as a Streamlit app |
@@ -26,7 +27,7 @@ I turn messy business data into reports, models and automations that people use 
 - **Deployment:** Streamlit apps on Streamlit Community Cloud
 - **Data & reporting:** SQL (DuckDB, PostgreSQL), Excel, Tableau ([public profile](https://public.tableau.com/app/profile/fred.ochako)), Power BI
 - **Visualization:** Matplotlib, Seaborn, Plotly
-- **Automation:** n8n, REST APIs and webhooks, WhatsApp (WAHA), SMTP, ClickUp
+- **Automation & data engineering:** n8n, GitHub Actions (scheduled pipelines, CI), REST APIs and webhooks, data-quality checks, WhatsApp (WAHA), SMTP, ClickUp
 
 ## Connect
 
